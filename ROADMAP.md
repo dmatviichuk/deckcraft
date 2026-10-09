@@ -103,3 +103,10 @@ catalogue rows (connectors, freeform, merge shapes, AutoRecover, gradients) took
 Every command is reachable from `deckcraft-cli` (`run`, `describe`, `commands`, `app` for the running
 window, `render`, `convert`), from MCP (`deckcraft-cli mcp`, optionally `--connect PORT`), and from the
 app's JSON control channel (`deckcraft --control PORT`).
+
+## Interface languages
+
+- English and Ukrainian: Preferences offers System language, English and Українська. Ukrainian
+  OS/browser locales select Ukrainian automatically; explicit desktop choices persist in `ui.json`.
+  Menus, ribbon, command palette, panels, dialogs and presenter controls use the interface catalog.
+  Presentation content and command IDs retain their original values.
